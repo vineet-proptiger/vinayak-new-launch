@@ -21,7 +21,7 @@ const units = [
   {
     type: "3 BHK",
     size: "1770 sq.ft",
-    price: "₹ 72 Lacs*",
+    price: "Ask for Price*",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [

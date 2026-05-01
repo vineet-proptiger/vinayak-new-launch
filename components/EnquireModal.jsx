@@ -54,7 +54,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(26,26,46,0.85) 0%, rgba(26,26,46,0.1) 60%)' }} />
           <div className="absolute bottom-0 left-0 right-0 p-5 text-white z-10">
             <p className="text-[10px] font-semibold tracking-[3px] uppercase opacity-80 mb-1" style={{ fontFamily: F_SANS, color: 'var(--color-gold)' }}>Vinayak New Launch</p>
-            <p style={{ fontFamily: F_JOST, fontSize: '13px', fontWeight: 500, opacity: 0.85 }}>3/4 BHK · Starting ₹1.4 Cr Onwards</p>
+            <p style={{ fontFamily: F_JOST, fontSize: '13px', fontWeight: 500, opacity: 0.85 }}>2 & 3 BHK · Starting ₹72 Lacs*</p>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(26,26,46,0.6) 0%, transparent 60%)' }} />
             <div className="absolute bottom-3 left-4 text-white z-10">
               <p className="text-[9px] uppercase tracking-[2px] opacity-80" style={{ fontFamily: F_SANS }}>Vinayak New Launch</p>
-              <p className="text-[11px] font-medium opacity-85" style={{ fontFamily: F_JOST }}>3/4 BHK · Starting ₹1.4 Cr Onwards</p>
+              <p className="text-[11px] font-medium opacity-85" style={{ fontFamily: F_JOST }}>2 & 3 BHK · Starting ₹72 Lacs*</p>
             </div>
           </div>
 

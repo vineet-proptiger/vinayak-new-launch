@@ -13,14 +13,14 @@ const Footer = () => (
         Vinayak New Launch
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-        New Launch — 3/4 BHK · Price Starting ₹1.4 Cr Onwards
+        New Launch — 2 & 3 BHK · Price Starting ₹72 Lacs*
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '32px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        Vinayak New Launch by Vinayak Group Kolkata is a premium luxury residential development offering 3 &amp; 4 BHK residences spread across 2 acres in New Town, Kolkata. Featuring 186 thoughtfully designed apartments with built-up areas from 1,167 to 1,772 sq ft and 50+ world-class amenities including multipurpose lawns, luxury clubhouse, gymnasium, poolside &amp; lot more — Vinayak New Launch is crafted for those seeking an exceptional standard of living. Possession commences July 2029.
+        Vinayak New Launch by Vinayak Group Kolkata is a premium luxury residential development offering 2 &amp; 3 BHK residences spread across 2 acres in New Town, Kolkata. Featuring 186 thoughtfully designed apartments with built-up areas from 1,167 to 1,772 sq ft and 50+ world-class amenities including multipurpose lawns, luxury clubhouse, gymnasium, poolside &amp; lot more — Vinayak New Launch is crafted for those seeking an exceptional standard of living. Possession commences July 2029.
       </p>
       {/* <div style={{ borderTop: '1px solid #333', marginBottom: '24px' }} /> */}
     </div>

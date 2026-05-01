@@ -11,7 +11,7 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SERIF = 'var(--font-serif), Cormorant Garamond, serif'
 
-const PREVIEW_TEXT = `Welcome to Vinayak New Launch — a premium residential development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 3 & 4 BHK apartments spread across 2 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata's most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.`
+const PREVIEW_TEXT = `Welcome to Vinayak New Launch — a premium residential development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 2 & 3 BHK apartments spread across 2 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata's most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.`
 
 const MORE_TEXT = ` With a total of 186 thoughtfully crafted apartments ranging from 1,167 to 1,772 sq ft of built-up area and an attractive average price of ₹8.1K/sq.ft, Vinayak New Launch is a new availability offering exceptional value in New Town's premium residential landscape.`
 

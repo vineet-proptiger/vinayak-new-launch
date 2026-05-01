@@ -124,7 +124,7 @@ const Hero = ({ setIsOpen }) => {
                 letterSpacing: '0.01em', lineHeight: 1.5
               }}
                 data-aos="fade-up" data-aos-delay="280">
-                Configuration: 3/4 BHK · New Town, Kolkata
+                Configuration: 2 & 3 BHK · New Town, Kolkata
               </p>
               {/* ── Google Rating ── */}
               {/* <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}
@@ -195,8 +195,8 @@ const Hero = ({ setIsOpen }) => {
                 Privileged Launch Advantages
               </p>
               {[
-                'Premium 3/4 BHK Residences',
-                'Price Starting @ ₹ 1.4 Cr Onwards',
+                'Premium 2 & 3 BHK Residences',
+                'Price Starting @ ₹ 72 Lacs*',
                 'Possession: July 2029',
                 'Total Launched: 186 Apartments',
               ].map((item, i, arr) => (
@@ -235,7 +235,7 @@ const Hero = ({ setIsOpen }) => {
                 fontFamily: F_SANS, fontSize: '13px', color: '#374151',
                 margin: '0 0 2px', fontWeight: '600',
               }}>
-                3/4 BHK Residences
+                2 & 3 BHK Residences
               </p>
               <p style={{
                 fontFamily: F_SANS, fontSize: '11px', color: '#9ca3af',
@@ -248,7 +248,7 @@ const Hero = ({ setIsOpen }) => {
                 color: 'var(--color-gold)',
                 fontFamily: F_JOST, lineHeight: 1, display: 'block',
               }}>
-                ₹ 1.4 Cr Onwards
+                ₹ 72 Lacs*
               </span>
             </div>
 

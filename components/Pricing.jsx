@@ -6,9 +6,9 @@ const PRIMARY = "var(--color-primary)";
 
 const units = [
   {
-    type: "3 BHK",
+    type: "2 BHK",
     size: "1167 sq.ft",
-    price: "₹ 1.4 Cr Onwards",
+    price: "₹ 72 Lacs*",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
@@ -19,9 +19,9 @@ const units = [
     isPopular: false,
   },
   {
-    type: "3 BHK + Study",
+    type: "3 BHK",
     size: "1770 sq.ft",
-    price: "Ask For Price",
+    price: "₹ 72 Lacs*",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
@@ -30,19 +30,6 @@ const units = [
       "Premium Residence"
     ],
     isPopular: true,
-  },
-  {
-    type: "4 BHK",
-    size: "1,590 sq.ft",
-    price: "Ask For Price",
-    oldPrice: null,
-    btnText: "Get Cost Sheet",
-    features: [
-      "Limited Launch Inventory",
-      "Attractive Payment Plan",
-      "Premium Residence"
-    ],
-    isPopular: false,
   },
 ];
 
@@ -83,7 +70,7 @@ const Pricing = ({ setIsOpen }) => {
           <div className="w-20 h-1 mx-auto rounded-full mb-6" style={{ background: GOLD }} />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
           {units.map((unit, idx) => (
             <div
               key={idx}

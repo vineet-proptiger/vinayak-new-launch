@@ -32,8 +32,8 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  title: 'Vinayak New Launch | Premium 3/4 BHK Apartments in New Town Kolkata — Price Starting ₹1.4 Cr Onwards',
-  description: 'Vinayak New Launch by Vinayak Group Kolkata — Premium 3 & 4 BHK residences in New Town, Kolkata. Price starting @ ₹1.4 Cr onwards. 186 apartments across 2 acres. Possession July 2029.',
+  title: 'Vinayak New Launch | Premium 2 & 3 BHK Apartments in New Town Kolkata — Price Starting ₹72 Lacs*',
+  description: 'Vinayak New Launch by Vinayak Group Kolkata — Premium 2 & 3 BHK residences in New Town, Kolkata. Price starting @ ₹72 Lacs*. 186 apartments across 2 acres. Possession July 2029.',
 }
 
 export default function RootLayout({ children }) {

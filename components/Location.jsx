@@ -206,7 +206,7 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.9458481931247!2d88.46165347530075!3d22.581128579485707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b04600bf99%3A0x10dffe9f070054e0!2sTOWN%20SQUARE%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1776667137738!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177760.7322493724!2d88.32818804200048!3d22.60581788240414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275350398a5b9%3A0x75e165b244323425!2sNewtown%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1777618189131!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}

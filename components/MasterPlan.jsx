@@ -11,7 +11,7 @@ const plans = [
   { label: '2 BHK Floor Plan', img: masterplanImages.bhk3 },
   // { label: '3 BHK Premium Floor Plan',    img: masterplanImages.bhk2 },
   { label: '3 BHK Floor Plan', img: masterplanImages.bhk45 },
-]
+] 
 
 const MasterPlan = ({ setIsOpen }) => {
   const [activePlan, setActivePlan] = useState(0)

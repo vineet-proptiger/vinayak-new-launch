@@ -17,14 +17,14 @@ const navLinks = [
 ]
 
 /* ── Inline SVG Logo ─────────────────────────────────────────── */
-// const ProjectLogo = () => (
-//   <img
-//     src={logoImages.tarc}
-//     alt="Lodha"
-//     className="h-10 md:h-16 w-auto object-contain transition-all"
-//     style={{ maxWidth: '250px' }}
-//   />
-// )
+const ProjectLogo = () => (
+  <img
+    src={logoImages.tarc}
+    alt="Lodha"
+    className="h-10 md:h-16 w-auto object-contain transition-all"
+    style={{ maxWidth: '250px' }}
+  />
+)
 
 const Navbar = ({ setIsOpen }) => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -45,9 +45,9 @@ const Navbar = ({ setIsOpen }) => {
         <div className="flex items-center justify-between h-[80px]">
 
           {/* Logo */}
-          {/* <a href="#" className="flex items-center shrink-0">
+          <a href="#" className="flex items-center shrink-0">
             <ProjectLogo />
-          </a> */}
+          </a>
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-6">

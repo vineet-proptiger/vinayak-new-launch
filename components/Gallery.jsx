@@ -79,7 +79,7 @@ const Gallery = ({ setIsOpen }) => {
               {/* Hover overlay */}
               <div style={{
                 position: 'absolute', inset: 0,
-                background: 'linear-gradient(to top, rgba(181, 135, 40, 0.75) 0%, transparent 55%)',
+                background: 'linear-gradient(to top, rgba(155, 27, 34, 0.75) 0%, transparent 55%)',
                 opacity: hovered === idx ? 1 : 0,
                 transition: 'opacity 0.32s ease',
                 display: 'flex', alignItems: 'flex-end', padding: '14px 12px',

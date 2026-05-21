@@ -102,7 +102,7 @@ const Hero = ({ setIsOpen }) => {
                 textTransform: 'uppercase',
                 letterSpacing: '0.1em',
                 border: '1px solid var(--color-gold-light)',
-                boxShadow: '0 2px 8px rgba(181,135,40,0.12)',
+                boxShadow: '0 2px 8px rgba(155,27,34,0.12)',
                 fontFamily: F_JOST
               }}>
                 New Launch

@@ -5,18 +5,25 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — Lodha (Golden Amber & Charcoal Theme)
+   THEME VARIABLES — Vinayak (Crimson Red Theme)
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Golden Amber Accent Palette ── */
+  /* ── Vinayak Crimson Red Accent Palette ── */
+  --color-gold: #9B1B22;
+  /* Primary Crimson Red accent color */
+  --color-gold-light: #C22B33;
+  /* Lighter vibrant red variant */
+  --color-gold-dark: #701015;
+  /* Deeper red variant  */
+  --color-gold-bg: #FDF2F3;
+  /* Tinted pink/red background variant */
+
+  /* ── Previous Golden Amber Accent Palette (Lodha) ──
   --color-gold: #B58728;
-  /* Primary accent color */
   --color-gold-light: #C9A04A;
-  /* Lighter vibrant variant */
   --color-gold-dark: #8C6920;
-  /* Deeper variant  */
   --color-gold-bg: #FBF6E8;
-  /* Tinted background variant */
+  */
 
   /* ── Charcoal Gray Primary Palette ── */
   --color-primary: #6D6E70;
@@ -41,11 +48,11 @@
   --btn-radius-pill: 50px;
 
   /* ── Shadows ── */
-  --shadow-sm: 0 2px 8px rgba(181, 135, 40, 0.08);
-  --shadow-md: 0 8px 24px rgba(181, 135, 40, 0.14);
-  --shadow-lg: 0 20px 48px rgba(181, 135, 40, 0.18);
+  --shadow-sm: 0 2px 8px rgba(155, 27, 34, 0.08);
+  --shadow-md: 0 8px 24px rgba(155, 27, 34, 0.14);
+  --shadow-lg: 0 20px 48px rgba(155, 27, 34, 0.18);
   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.07);
-  --color-shadow-inner: rgba(181, 135, 40, 0.10);
+  --color-shadow-inner: rgba(155, 27, 34, 0.10);
 }
 
 /* ─── Keyframes ─────────────────────────────────────────────── */
@@ -92,11 +99,11 @@
 
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(181, 135, 40, 0.5);
+    box-shadow: 0 0 0 0 rgba(155, 27, 34, 0.5);
   }
 
   50% {
-    box-shadow: 0 0 0 10px rgba(181, 135, 40, 0);
+    box-shadow: 0 0 0 10px rgba(155, 27, 34, 0);
   }
 }
 
@@ -126,11 +133,11 @@
 
   0%,
   100% {
-    border-color: rgba(181, 135, 40, 0.4);
+    border-color: rgba(155, 27, 34, 0.4);
   }
 
   50% {
-    border-color: rgba(181, 135, 40, 1);
+    border-color: rgba(155, 27, 34, 1);
   }
 }
 
@@ -225,7 +232,7 @@
 
   /* ── Theme selection ── */
   ::selection {
-    background: rgba(181, 135, 40, 0.15);
+    background: rgba(155, 27, 34, 0.15);
     color: var(--color-gold-dark);
   }
 }
@@ -252,7 +259,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(181, 135, 40, 0.35);
+    box-shadow: 0 4px 14px rgba(155, 27, 34, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -279,12 +286,12 @@
     color: var(--color-gold) !important;
     border-color: var(--color-gold);
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(181, 135, 40, 0.30);
+    box-shadow: 0 12px 28px rgba(155, 27, 34, 0.30);
   }
 
   .btn-gold:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(181, 135, 40, 0.20);
+    box-shadow: 0 4px 10px rgba(155, 27, 34, 0.20);
   }
 
   /* ══ OUTLINED RED BUTTON ══ */
@@ -314,7 +321,7 @@
     background: var(--color-gold) !important;
     color: #ffffff !important;
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(181, 135, 40, 0.30);
+    box-shadow: 0 12px 28px rgba(155, 27, 34, 0.30);
   }
 
   /* ══ DARK PRIMARY BUTTON (Now Gold Theme) ══ */
@@ -336,7 +343,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(181, 135, 40, 0.35);
+    box-shadow: 0 4px 14px rgba(155, 27, 34, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -346,12 +353,12 @@
     color: var(--color-gold) !important;
     border-color: var(--color-gold);
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(181, 135, 40, 0.30);
+    box-shadow: 0 12px 28px rgba(155, 27, 34, 0.30);
   }
 
   .btn-primary:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(181, 135, 40, 0.20);
+    box-shadow: 0 4px 10px rgba(155, 27, 34, 0.20);
   }
 
   /* ══ FLOATING TAB ══ */
@@ -367,7 +374,7 @@
     padding: 16px 10px;
     font-size: 12px;
     letter-spacing: 0.08em;
-    box-shadow: -4px 0 18px rgba(181, 135, 40, 0.28);
+    box-shadow: -4px 0 18px rgba(155, 27, 34, 0.28);
   }
 
   .btn-floating-tab:hover {
@@ -375,7 +382,7 @@
     background: #fff !important;
     color: var(--color-gold) !important;
     border-color: var(--color-gold);
-    box-shadow: -6px 0 24px rgba(181, 135, 40, 0.35);
+    box-shadow: -6px 0 24px rgba(155, 27, 34, 0.35);
   }
 
   /* ══ SECTION TITLE ══ */
@@ -414,7 +421,7 @@
 
   .form-input:focus {
     border-color: var(--color-gold);
-    box-shadow: 0 0 0 3px rgba(181, 135, 40, 0.10), inset 0 1px 3px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 0 3px rgba(155, 27, 34, 0.10), inset 0 1px 3px rgba(0, 0, 0, 0.04);
   }
 
   .form-input::placeholder {
@@ -469,7 +476,7 @@
   .pricing-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
-    border-color: rgba(181, 135, 40, 0.25);
+    border-color: rgba(155, 27, 34, 0.25);
   }
 
   .pricing-card:hover::after {
@@ -492,7 +499,7 @@
 
   .highlight-card:hover {
     border-color: var(--color-gold);
-    box-shadow: 0 8px 28px rgba(181, 135, 40, 0.15);
+    box-shadow: 0 8px 28px rgba(155, 27, 34, 0.15);
     transform: translateY(-4px);
   }
 
@@ -514,7 +521,7 @@
     border-color: var(--color-gold);
     background: var(--color-gold-bg);
     color: var(--color-gold);
-    box-shadow: 0 0 0 6px rgba(181, 135, 40, 0.08);
+    box-shadow: 0 0 0 6px rgba(155, 27, 34, 0.08);
   }
 
   /* ══ SECTION WRAPPER — white card on diamond bg ══ */
@@ -547,7 +554,7 @@
   right: 0;
   z-index: 999;
   display: flex;
-  box-shadow: 0 -4px 20px rgba(181, 135, 40, 0.18);
+  box-shadow: 0 -4px 20px rgba(155, 27, 34, 0.18);
 }
 
 @media (min-width: 1024px) {
@@ -561,12 +568,12 @@ nav.fixed {
   background: rgba(255, 255, 255, 0.96) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(181, 135, 40, 0.08);
+  border-bottom: 1px solid rgba(155, 27, 34, 0.08);
 }
 
 /* ─── Teal-Cyan focus ring globally ─────────────────────────────────── */
 *:focus-visible {
-  outline: 2px solid rgba(181, 135, 40, 0.5);
+  outline: 2px solid rgba(155, 27, 34, 0.5);
   outline-offset: 3px;
   border-radius: 4px;
 }

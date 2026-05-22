@@ -12,6 +12,7 @@ const Pricing = dynamic(() => import('../components/Pricing'), { ssr: true })
 const Location = dynamic(() => import('../components/Location'), { ssr: true })
 const MasterPlan = dynamic(() => import('../components/MasterPlan'), { ssr: true })
 const AboutDeveloper = dynamic(() => import('../components/AboutDeveloper'), { ssr: true })
+const VideoSection = dynamic(() => import('../components/VideoSection'), { ssr: true })
 const Footer = dynamic(() => import('../components/Footer'), { ssr: true })
 
 const Gallery = dynamic(() => import('../components/Gallery'), { ssr: false })
@@ -34,6 +35,7 @@ export default function Home() {
       <Location />
       <MasterPlan setIsOpen={setIsOpen} />
       <AboutDeveloper setIsOpen={setIsOpen} />
+      <VideoSection />
       <Footer />
       <EnquireModal isOpen={isOpen} setIsOpen={setIsOpen} />
 

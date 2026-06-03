@@ -56,6 +56,8 @@ export default function Home() {
       {/* Mobile Sticky Bottom Bar */}
       <div className="sticky-bottom-bar">
         <a
+          id="mobile-call"
+
           href="tel:+919718344024"
           className="flex-1 flex flex-col items-center justify-center gap-0.5 !py-2 !px-0 text-white transition-all"
           style={{ background: '#111827' }}
@@ -76,7 +78,7 @@ export default function Home() {
           <span style={{ fontSize: '9px', fontWeight: '600', letterSpacing: '0.04em', fontFamily: 'var(--font-jost)' }}>Enquire</span>
         </button>
         <a
-          href="https://wa.me/919718344024?text=Hi%20I%20am%20interested%20in%20Vinayak%20New%20Launch"
+          href="https://wa.me/919718344024?text=Hi%20I%20am%20interested%20in%20Vinayak%2021%20acres"
           target="_blank" rel="noopener noreferrer"
           className="flex-1 flex flex-col items-center justify-center gap-0.5 py-2 !px-0 text-white transition-all"
           style={{ background: '#25D366', fontFamily: 'var(--font-sans)' }}

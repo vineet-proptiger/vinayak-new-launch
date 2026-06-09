@@ -229,27 +229,77 @@ const Hero = ({ setIsOpen }) => {
               textAlign: 'center',
               background: 'var(--color-bg-muted)',
               borderRadius: '10px',
-              padding: '12px 16px',
+              padding: '16px',
             }} data-aos="fade-up" data-aos-delay="480">
               <p style={{
-                fontFamily: F_SANS, fontSize: '13px', color: '#374151',
-                margin: '0 0 2px', fontWeight: '600',
+                fontFamily: F_SANS, fontSize: '14px', color: '#374151',
+                margin: '0 0 10px', fontWeight: '600',
               }}>
                 2 & 3 BHK Residences
               </p>
-              <p style={{
-                fontFamily: F_SANS, fontSize: '11px', color: '#9ca3af',
-                margin: '0 0 8px', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: '600'
+              
+              <style>{`
+                @keyframes hueCycle {
+                  0% { filter: hue-rotate(0deg); }
+                  100% { filter: hue-rotate(360deg); }
+                }
+                .highlighter-bg {
+                  animation: hueCycle 6s linear infinite;
+                }
+              `}</style>
+              
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '10px',
+                flexWrap: 'wrap'
               }}>
-                Price Starting At
-              </p>
-              <span className="blink-price" style={{
-                fontSize: '28px', fontWeight: '800',
-                color: 'var(--color-gold)',
-                fontFamily: F_JOST, lineHeight: 1, display: 'block',
-              }}>
-                ₹ 72 Lacs*
-              </span>
+                <span style={{
+                  display: 'inline-block',
+                  position: 'relative',
+                  color: '#1f2937',
+                  padding: '6px 12px',
+                  fontSize: '14px',
+                  fontWeight: '900',
+                  lineHeight: 1.2,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.05em',
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
+                  zIndex: 1
+                }}>
+                  <span className="highlighter-bg" style={{
+                    position: 'absolute',
+                    top: 0, bottom: 0, left: 0, right: 0,
+                    background: '#fde047', /* Bright highlighter yellow */
+                    transform: 'skew(-12deg)',
+                    borderRadius: '4px',
+                    zIndex: -1,
+                    boxShadow: '0 2px 12px rgba(253, 224, 71, 0.5)'
+                  }} />
+                  Price Rises Soon
+                </span>
+
+                <span style={{
+                  fontFamily: F_SANS, fontSize: '13px', color: '#9ca3af',
+                  textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: '600',
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0
+                }}>
+                  Price Starting At
+                </span>
+
+                <span className="blink-price" style={{
+                  fontSize: '30px', fontWeight: '800',
+                  color: 'var(--color-gold)',
+                  fontFamily: F_JOST, lineHeight: 1,
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0
+                }}>
+                  ₹ 72 Lacs*
+                </span>
+              </div>
             </div>
 
             {/* ── CTA Button ── */}

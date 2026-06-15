@@ -20,7 +20,7 @@ const units = [
   },
   {
     type: "3 BHK",
-    size: "1130 sq.ft",
+    size: "1130-1550 sq.ft",
     price: "Ask for Price*",
     oldPrice: null,
     btnText: "Get Cost Sheet",

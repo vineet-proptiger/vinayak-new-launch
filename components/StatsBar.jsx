@@ -1,5 +1,5 @@
 const stats = [
-  { value: '2', label: 'Acres Total Area' },
+  { value: '21', label: 'Acres Total Area' },
   { value: '186', label: 'Total Apartments' },
   { value: '50', label: '+ Amenities' },
   { value: "Jul'29", label: 'Possession' },

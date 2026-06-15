@@ -155,7 +155,7 @@ const Hero = ({ setIsOpen }) => {
               gap: '0',
             }} data-aos="fade-up" data-aos-delay="360">
               {[
-                { value: '2', label: 'Acres Total Area' },
+                { value: '21', label: 'Acres Total Area' },
                 { value: '50+', label: 'Amenities' },
                 { value: '7311K', label: 'Avg. Price/sq.ft' },
                 { value: '₹70.99 L*', label: 'Starting Price' },

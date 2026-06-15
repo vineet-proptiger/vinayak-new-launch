@@ -13,7 +13,7 @@ const navLinks = [
   { name: 'Price', href: '#pricing' },
   { name: 'Location', href: '#location' },
   { name: 'Floor Plan', href: '#masterplan' },
-  { name: 'Developer', href: '#developer' },
+  { name: 'Schedule Free Site Visit', href: '#developer' },
 ]
 
 /* ── Inline SVG Logo ─────────────────────────────────────────── */
@@ -52,12 +52,23 @@ const Navbar = ({ setIsOpen }) => {
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-6">
             {navLinks.map(link => (
-              <a key={link.name} href={link.href}
-                className="text-[13px] font-medium text-[var(--color-text-mid)] hover:text-gold transition-colors tracking-wide relative group"
-                style={{ fontFamily: 'var(--font-sans)' }}>
-                {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: GOLD }} />
-              </a>
+              link.name === 'Schedule Free Site Visit' ? (
+                <button
+                  key={link.name}
+                  onClick={() => setIsOpen(true)}
+                  className="btn-gold"
+                  style={{ borderRadius: '50px', textDecoration: 'none', alignItems: 'center', display: 'flex' }}
+                >
+                  {link.name}
+                </button>
+              ) : (
+                <a key={link.name} href={link.href}
+                  className="text-[13px] font-medium text-[var(--color-text-mid)] hover:text-gold transition-colors tracking-wide relative group"
+                  style={{ fontFamily: 'var(--font-sans)' }}>
+                  {link.name}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: GOLD }} />
+                </a>
+              )
             ))}
           </div>
 
@@ -87,12 +98,25 @@ const Navbar = ({ setIsOpen }) => {
       {mobileOpen && (
         <div className="lg:hidden bg-[var(--color-bg)] border-t border-gray-100 shadow-lg">
           {navLinks.map(link => (
-            <a key={link.name} href={link.href}
-              onClick={() => setMobileOpen(false)}
-              className="block px-6 py-3.5 text-sm text-[var(--color-text-mid)] hover:bg-[var(--color-bg-light)] border-b border-gray-50 hover:text-gold transition-colors"
-              style={{ fontFamily: 'var(--font-sans)' }}>
-              {link.name}
-            </a>
+            link.name === 'Schedule Free Site Visit' ? (
+              <button
+                key={link.name}
+                onClick={() => {
+                  setMobileOpen(false)
+                  setIsOpen(true)
+                }}
+                className="block w-full text-left px-6 py-3.5 text-sm font-semibold bg-[var(--color-gold)] text-white hover:opacity-90 border-b border-gray-50 transition-colors"
+                style={{ fontFamily: 'var(--font-sans)' }}>
+                {link.name}
+              </button>
+            ) : (
+              <a key={link.name} href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className="block px-6 py-3.5 text-sm text-[var(--color-text-mid)] hover:bg-[var(--color-bg-light)] border-b border-gray-50 hover:text-gold transition-colors"
+                style={{ fontFamily: 'var(--font-sans)' }}>
+                {link.name}
+              </a>
+            )
           ))}
           <div className="p-4">
             <a href="tel:9718344024"

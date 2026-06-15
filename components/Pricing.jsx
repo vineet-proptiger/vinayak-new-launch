@@ -7,8 +7,8 @@ const PRIMARY = "var(--color-primary)";
 const units = [
   {
     type: "2 BHK",
-    size: "1167 sq.ft",
-    price: "₹ 72 Lacs*",
+    size: "971 sq.ft",
+    price: "₹ 70.99 Lacs*",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
@@ -20,7 +20,7 @@ const units = [
   },
   {
     type: "3 BHK",
-    size: "1770 sq.ft",
+    size: "1130 sq.ft",
     price: "Ask for Price*",
     oldPrice: null,
     btnText: "Get Cost Sheet",

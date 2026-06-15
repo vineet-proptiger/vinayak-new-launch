@@ -41,7 +41,7 @@ const Hero = ({ setIsOpen }) => {
             >
               {slides.map((src, idx) => (
                 <div key={idx} style={{ width: `${100 / slides.length}%`, flexShrink: 0, position: 'relative' }}>
-                  <Image src={src} alt={`Vinayak New Launch ${idx + 1}`} fill className="object-cover"
+                  <Image src={src} alt={`Vinayak 21  ${idx + 1}`} fill className="object-cover"
                     priority={idx === 0} sizes="(max-width: 1024px) 100vw, 62vw" />
                 </div>
               ))}
@@ -117,7 +117,7 @@ const Hero = ({ setIsOpen }) => {
                 letterSpacing: '-0.01em'
               }}
                 data-aos="fade-up" data-aos-delay="200">
-                Vinayak New Launch
+                Vinayak 21 Acres
               </h1>
               <p style={{
                 fontFamily: F_SANS, fontSize: '12px', color: '#6b7280', margin: '0 0 8px',
@@ -157,8 +157,8 @@ const Hero = ({ setIsOpen }) => {
               {[
                 { value: '2', label: 'Acres Total Area' },
                 { value: '50+', label: 'Amenities' },
-                { value: '186', label: 'Total Apartments' },
-                { value: '8.1K', label: 'Avg. Price/sq.ft' },
+                { value: '7311K', label: 'Avg. Price/sq.ft' },
+                { value: '₹70.99 L*', label: 'Starting Price' },
               ].map((s, i) => (
                 <div key={i} style={{
                   textAlign: 'center',
@@ -196,9 +196,9 @@ const Hero = ({ setIsOpen }) => {
               </p>
               {[
                 'Premium 2 & 3 BHK Residences',
-                'Price Starting @ ₹ 72 Lacs*',
+                'Price Starting @ ₹ 70.99 Lacs*',
                 'Possession: July 2029',
-                'Total Launched: 186 Apartments',
+                // ' 70.99 Lacs',
               ].map((item, i, arr) => (
                 <div key={i}>
                   <p style={{
@@ -297,7 +297,7 @@ const Hero = ({ setIsOpen }) => {
                   whiteSpace: 'nowrap',
                   flexShrink: 0
                 }}>
-                  ₹ 72 Lacs*
+                  ₹ 70.99 Lacs*
                 </span>
               </div>
             </div>
@@ -350,3 +350,14 @@ const Hero = ({ setIsOpen }) => {
 }
 
 export default Hero
+
+
+
+
+
+
+
+
+
+
+

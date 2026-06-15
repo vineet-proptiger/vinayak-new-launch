@@ -134,7 +134,7 @@ const Highlights = ({ setIsOpen }) => (
           color: '#111827', margin: 0, letterSpacing: '-0.01em',
         }}>
           Highlights Gallery:{' '}
-          <span style={{ color: 'var(--color-gold)' }}> Vinayak New Launch</span>
+          <span style={{ color: 'var(--color-gold)' }}> Vinayak 21 Acres</span>
         </h2>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
           <span style={{

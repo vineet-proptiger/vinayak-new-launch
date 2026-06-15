@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
           {/* <Link href="/" className="flex items-center">
-            <img src={logoImages.tarc} alt="Vinayak New Launch" className="h-6 sm:h-10 w-auto object-contain" />
+            <img src={logoImages.tarc} alt="Vinayak 21 Acres" className="h-6 sm:h-10 w-auto object-contain" />
           </Link> */}
           <Link
             href="/"
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
             <p className="mb-6 sm:mb-8 text-sm sm:text-base" style={{ lineHeight: 1.8, color: '#444', fontFamily: 'var(--font-jost), Jost, sans-serif' }}>
               At{' '}
               <span style={{ color: 'var(--color-gold-dark)', fontWeight: '600' }}>
-                Vinayak New Launch — Vinayak Group Kolkata
+                Vinayak 21 Acres — Vinayak Group Kolkata
               </span>{' '}
               (Authorized Marketing Partner), we respect your privacy and are committed to safeguarding your personal data. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
             </p>
@@ -300,7 +300,7 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 Vinayak New Launch. All rights reserved |{' '}
+          &copy; 2026 Vinayak 21 Acres. All rights reserved |{' '}
           <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>

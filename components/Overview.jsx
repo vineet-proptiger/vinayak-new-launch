@@ -11,9 +11,9 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SERIF = 'var(--font-serif), Cormorant Garamond, serif'
 
-const PREVIEW_TEXT = `Welcome to Vinayak New Launch — a premium residential development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 2 & 3 BHK apartments spread across 2 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata's most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.`
+const PREVIEW_TEXT = `Welcome to Vinayak 21 Acres — a premium residential development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 2 & 3 BHK apartments spread across 2 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata's most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.`
 
-const MORE_TEXT = ` With a total of 186 thoughtfully crafted apartments ranging from 971 to 1,550 sq ft of built-up area and an attractive average price of ₹7311K/sq.ft, Vinayak New Launch is a new availability offering exceptional value in New Town's premium residential landscape.`
+const MORE_TEXT = ` With a total of 186 thoughtfully crafted apartments ranging from 971 to 1,550 sq ft of built-up area and an attractive average price of ₹7311K/sq.ft, Vinayak 21 Acres is a new availability offering exceptional value in New Town's premium residential landscape.`
 
 const inputStyle = {
   width: '100%',
@@ -203,7 +203,7 @@ const Overview = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>Vinayak New Launch New Launch</span>
+          }}>Vinayak 21 Acres New Launch</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: 0, letterSpacing: '-0.01em',
@@ -230,7 +230,7 @@ const Overview = () => {
               height: '100%', minHeight: '420px',
               background: 'linear-gradient(180deg, #fffdf8, #f5efe2)',
             }}>
-              <Image src={overviewImage} alt="Vinayak New Launch" fill className="object-contain"
+              <Image src={overviewImage} alt="Vinayak 21 Acres" fill className="object-contain"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,

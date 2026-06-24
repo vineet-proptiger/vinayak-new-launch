@@ -29,7 +29,7 @@ const Hero = ({ setIsOpen }) => {
           data-aos="fade-right">
 
           {/* Carousel — outline draws 10px inside, not clipped by overflow-hidden */}
-          <div className="overflow-hidden" style={{ position: 'absolute', inset: 0, border: '5px solid var(--color-gold)', zIndex: 1, borderRadius: '10px' }}>
+          <div className="overflow-hidden" style={{ position: 'absolute', inset: 0, border: '2px solid var(--color-gold)', zIndex: 1, borderRadius: '10px' }}>
             <div
               className="flex h-full"
               style={{

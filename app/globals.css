@@ -95,6 +95,17 @@
   }
 }
 
+@keyframes phone-ring {
+  0%, 100% { transform: rotate(0) scale(1) skew(1deg); }
+  10%, 30%, 50%, 70%, 90% { transform: rotate(-15deg) scale(1) skew(1deg); }
+  20%, 40%, 60%, 80% { transform: rotate(15deg) scale(1) skew(1deg); }
+}
+
+.animate-phone-ring {
+  animation: phone-ring 1.5s infinite ease-in-out;
+  transform-origin: center center;
+}
+
 @keyframes pulseGlow {
 
   0%,
@@ -554,7 +565,28 @@
   right: 0;
   z-index: 999;
   display: flex;
-  box-shadow: 0 -4px 20px rgba(155, 27, 34, 0.18);
+  box-shadow: 0 -4px 20px rgba(201, 169, 110, 0.18);
+}
+
+.mahindra-theme-btn {
+  background: linear-gradient(90deg, #D4AF37 0%, #F9E08A 100%) !important;
+  color: #111827 !important;
+  border-color: transparent !important;
+  font-weight: 800 !important;
+  border-radius: 0 !important;
+  -webkit-mask: 
+    radial-gradient(circle at 0 0, transparent 6px, black 6.5px) top left,
+    radial-gradient(circle at 100% 0, transparent 6px, black 6.5px) top right,
+    radial-gradient(circle at 0 100%, transparent 6px, black 6.5px) bottom left,
+    radial-gradient(circle at 100% 100%, transparent 6px, black 6.5px) bottom right;
+  -webkit-mask-size: 51% 51%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.mahindra-theme-btn:hover {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border-color: #D4AF37 !important;
 }
 
 @media (min-width: 1024px) {

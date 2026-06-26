@@ -84,7 +84,7 @@ const Location = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>Action Area 1, Newtown, Kolkata</span>
+          }}>Action Area 3, Newtown, Kolkata</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: '0 0 6px', letterSpacing: '-0.01em',
@@ -206,7 +206,7 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154135.67194415562!2d88.38912145!3d22.559719599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b0042e86643%3A0x9b80b16de5baca87!2sVinayak%2021%20Acres!5e1!3m2!1sen!2sin!4v1782477700758!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154135.67194415545!2d88.23668609726562!3d22.55971960000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c5e7610383%3A0x7f2bc8dda354b50a!2sVinayak%2021%20Acres%20New%20Town!5e1!3m2!1sen!2sin!4v1782478315605!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}
@@ -228,7 +228,7 @@ const Location = () => {
                   color: '#fff', fontSize: '11px', fontFamily: F_JOST,
                   fontWeight: '700', letterSpacing: '0.04em'
                 }}>
-                  Action Area 1, Newtown, Kolkata
+                  Action Area 3, Newtown, Kolkata
                 </span>
               </div>
             </div>

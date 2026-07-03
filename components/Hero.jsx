@@ -124,7 +124,7 @@ const Hero = ({ setIsOpen }) => {
                 letterSpacing: '0.01em', lineHeight: 1.5
               }}
                 data-aos="fade-up" data-aos-delay="280">
-                Configuration: 2 & 3 BHK · New Town, Kolkata
+                Configuration: 2 & 3 BHK · Action Area 3 New Town
               </p>
               {/* ── Google Rating ── */}
               {/* <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}

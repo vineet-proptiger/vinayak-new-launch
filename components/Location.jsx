@@ -206,13 +206,13 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154135.67194415545!2d88.23668609726562!3d22.55971960000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c5e7610383%3A0x7f2bc8dda354b50a!2sVinayak%2021%20Acres%20New%20Town!5e1!3m2!1sen!2sin!4v1782478315605!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.098914327155!2d88.46821438587827!3d22.57540352660553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c5e7610383%3A0x7f2bc8dda354b50a!2sVinayak%2021%20Acres%20New%20Town!5e0!3m2!1sen!2sin!4v1781519226894!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
+                referrerPolicy="no-referrer-when-downgrade"
               />
               <div style={{
                 position: 'absolute', bottom: '16px', left: '16px', zIndex: 10,

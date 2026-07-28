@@ -22,7 +22,8 @@ const ContactForm = () => {
 
   const submit = async (e) => {
     e.preventDefault()
-    if (!/^\d{10}$/.test(form.phone)) { setError('Enter valid 10-digit number'); return }
+    if (form.phone.length !== 10) { setError('Enter valid 10-digit number'); return }
+    if (!/^[6-9]\d{9}$/.test(form.phone)) { setError('Phone number must start with 6, 7, 8, or 9'); return }
     setError(''); setLoading(true)
     const tracking = buildTrackingFields()
     const payload = new FormData()

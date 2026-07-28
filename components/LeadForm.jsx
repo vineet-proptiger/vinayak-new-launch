@@ -22,7 +22,8 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details' }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    if (!/^\d{10}$/.test(formData.phone)) { setError('Please enter a valid 10-digit mobile number.'); return }
+    if (formData.phone.length !== 10) { setError('Please enter a valid 10-digit mobile number.'); return }
+    if (!/^[6-9]\d{9}$/.test(formData.phone)) { setError('Phone number must start with 6, 7, 8, or 9'); return }
     setError(''); setLoading(true)
     const tracking = buildTrackingFields()
     const payload = new FormData()

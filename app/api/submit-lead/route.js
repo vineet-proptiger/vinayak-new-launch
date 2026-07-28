@@ -41,6 +41,9 @@ export async function POST(request) {
     if (phone.length > 0 && phone.length < 10) {
       return Response.json({ status: false, msg: 'Invalid phone number' })
     }
+    if (phone.length === 10 && !/^[6-9]\d{9}$/.test(phone)) {
+      return Response.json({ status: false, msg: 'Phone number must start with 6, 7, 8, or 9' })
+    }
     const email = get('email')
 
     if (phone === '' && email === '') {

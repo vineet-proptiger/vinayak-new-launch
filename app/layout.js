@@ -33,8 +33,15 @@ const nephilm = localFont({
 })
 
 export const metadata = {
+  metadataBase: new URL('https://www.vinayak21acresnewtown.com'),
   title: 'Vinayak 21 Acres | Premium 2 & 3 BHK Apartments in New Town Kolkata — Price Starting ₹70.99 Lacs*',
   description: 'Vinayak 21 Acres by Vinayak Group Kolkata — Premium 2 & 3 BHK residences in New Town, Kolkata. Price starting @ ₹70.99 Lacs*. 186 apartments across 2 acres. Possession July 2029.',
+  alternates: {
+    canonical: '/',
+  },
+  icons: {
+    icon: '/images/favicon/fav.png',
+  },
 }
 
 export default function RootLayout({ children }) {

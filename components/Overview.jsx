@@ -223,15 +223,14 @@ const Overview = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
 
           {/* LEFT: Image */}
-          <div data-aos="fade-right" style={{ display: 'flex' }}>
-            <div style={{
+          <div data-aos="fade-right" className="w-full flex">
+            <div className="w-full aspect-[4/5] lg:aspect-auto lg:h-auto lg:min-h-[520px]" style={{
               position: 'relative', borderRadius: '16px', overflow: 'hidden',
               boxShadow: '0 16px 48px rgba(0,0,0,0.14)',
-              border: '3px solid #fff', width: '100%',
-              height: '100%', minHeight: '420px',
+              border: '3px solid #fff',
               background: 'linear-gradient(180deg, #fffdf8, #f5efe2)',
             }}>
-              <Image src={overviewImage} alt="Vinayak 21 Acres" fill className="object-contain"
+              <Image src={overviewImage} alt="Vinayak 21 Acres" fill className="object-fit"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,

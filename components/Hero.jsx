@@ -158,7 +158,7 @@ const Hero = ({ setIsOpen }) => {
                 { value: '21', label: 'Acres Total Area' },
                 { value: '50+', label: 'Amenities' },
                 { value: '7311K', label: 'Avg. Price/sq.ft' },
-                { value: '₹70.99 L*', label: 'Starting Price' },
+                { value: '₹76 L*', label: 'Starting Price' },
               ].map((s, i) => (
                 <div key={i} style={{
                   textAlign: 'center',
@@ -196,9 +196,9 @@ const Hero = ({ setIsOpen }) => {
               </p>
               {[
                 'Premium 2 & 3 BHK Residences',
-                'Price Starting @ ₹ 70.99 Lacs*',
+                'Price Starting @ ₹ 76 Lacs*',
                 'Possession: July 2029',
-                // ' 70.99 Lacs',
+                // ' 76 Lacs',
               ].map((item, i, arr) => (
                 <div key={i}>
                   <p style={{
@@ -297,7 +297,7 @@ const Hero = ({ setIsOpen }) => {
                   whiteSpace: 'nowrap',
                   flexShrink: 0
                 }}>
-                  ₹ 70.99 Lacs*
+                  ₹ 76 Lacs*
                 </span>
               </div>
             </div>

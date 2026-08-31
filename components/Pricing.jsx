@@ -8,7 +8,7 @@ const units = [
   {
     type: "2 BHK",
     size: "971 sq.ft",
-    price: "₹ 70.99 Lacs*",
+    price: "₹ 76 Lacs*",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [

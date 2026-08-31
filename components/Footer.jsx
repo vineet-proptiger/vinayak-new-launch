@@ -13,7 +13,7 @@ const Footer = () => (
         Vinayak 21 Acres
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-        New Launch — 2 & 3 BHK · Price Starting ₹70.99 Lacs*
+        New Launch — 2 & 3 BHK · Price Starting ₹76 Lacs*
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />

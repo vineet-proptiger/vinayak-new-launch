@@ -34,7 +34,7 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://www.vinayak21acresnewtown.com'),
-  title: 'Vinayak 21 Acres | 2 & 3 BHK Flats in New Town',
+  title: 'Vinayak 21 Acres | 2 & 3 BHK Luxury Flats in New Town',
   description: 'Explore 2 & 3 BHK luxury flats at Vinayak 21 Acres, New Town with modern amenities, excellent connectivity and premium lifestyle features for your family.',
   keywords: ['Vinayak 21 Acres', 'Vinayak 21 Acres New Town', '2 BHK flats in New Town', '3 BHK flats in New Town', 'Luxury flats in New Town', 'Flats in New Town Kolkata'],
   alternates: {

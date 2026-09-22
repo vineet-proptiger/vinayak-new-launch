@@ -48,7 +48,7 @@ const Overview = ({ setIsOpen }) => {
           <div className="w-2 h-2 rounded-full bg-[#9B1B22] mx-3"></div>
           <div className="w-16 h-[1px] bg-[#9B1B22]"></div>
         </div>
-        <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Premium Residences at Action Area 3 New Town, Kolkata</h3>
+        <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Premium Villas at Action Area 3 New Town, Kolkata</h3>
       </div>
 
       <div className="flex flex-col lg:flex-row items-stretch gap-6 lg:gap-8">
@@ -76,9 +76,9 @@ const Overview = ({ setIsOpen }) => {
                 >
                   W
                 </span>
-                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>elcome to Vinayak 21 Acres Villa</span> — a premium residential development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 3 &amp; 4 BHK apartments spread across 21 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata&apos;s most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.
+                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>elcome to Vinayak 21 Acres Villa</span> — a premium villa development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 3 &amp; 4 BHK villas spread across 21 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata&apos;s most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.
                 <span className="lg:inline hidden">
-                  {" "}With thoughtfully crafted residences ranging from 3,035 to 3,366 sq ft of saleable area and an attractive average price of ₹7908K/sq.ft, Vinayak 21 Acres Villa is a new availability offering exceptional value in New Town&apos;s premium residential landscape.
+                  {" "}With thoughtfully crafted villas ranging from 3,035 to 3,366 sq ft of saleable area and an attractive average price of ₹7908K/sq.ft, Vinayak 21 Acres Villa is a new availability offering exceptional value in New Town&apos;s premium villa landscape.
                 </span>
 
                 {/* Mobile text toggle */}
@@ -86,7 +86,7 @@ const Overview = ({ setIsOpen }) => {
                   {!isExpanded ? '... ' : ' '}
                   {isExpanded && (
                     <span>
-                      With thoughtfully crafted residences ranging from 3,035 to 3,366 sq ft of saleable area and an attractive average price of ₹7908K/sq.ft, Vinayak 21 Acres Villa is a new availability offering exceptional value in New Town&apos;s premium residential landscape.
+                      With thoughtfully crafted villas ranging from 3,035 to 3,366 sq ft of saleable area and an attractive average price of ₹7908K/sq.ft, Vinayak 21 Acres Villa is a new availability offering exceptional value in New Town&apos;s premium villa landscape.
                     </span>
                   )}
                   <button 

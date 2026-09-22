@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
             "url": "https://www.vinayak21acresnewtown.com",
             "logo": "https://www.vinayak21acresnewtown.com/luxury-villas-newtown/logo/Logo.webp",
             "image": "https://www.vinayak21acresnewtown.com/luxury-villas-newtown/hero/banner1.webp",
-            "description": "Vinayak 21 Acres Villa at Action Area 3 New Town, Kolkata offers premium 3 & 4 BHK residences.",
+            "description": "Vinayak 21 Acres Villa at Action Area 3 New Town, Kolkata offers premium 3 & 4 BHK villas.",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Action Area 3, New Town",

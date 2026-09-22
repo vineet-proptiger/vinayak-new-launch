@@ -9,7 +9,7 @@ const F_JOST = "var(--font-jost), Montserrat, sans-serif";
 const units = [
   {
     type: "3 BHK",
-    subtitle: "PREMIUM RESIDENCES",
+    subtitle: "PREMIUM VILLAS",
     tagline: "Thoughtfully Designed",
     size: "3035 Sq. Ft.",
     price: "₹ 2.40 Cr*",
@@ -24,7 +24,7 @@ const units = [
   },
   {
     type: "4 BHK",
-    subtitle: "LUXURY RESIDENCES",
+    subtitle: "LUXURY VILLAS",
     tagline: "Spacious & Elegant",
     size: "3366 Sq. Ft.",
     price: "Ask For Price*",

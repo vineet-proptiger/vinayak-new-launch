@@ -9,7 +9,7 @@ const highlightsData = [
   {
     icon: Building2,
     title: '21 Acres Integrated Township',
-    desc: 'Thoughtfully planned gated residential community spanning across 21 acres of lush greenery and modern living in New Town.',
+    desc: 'Thoughtfully planned gated villa community spanning across 21 acres of lush greenery and modern living in New Town.',
   },
   {
     icon: Dumbbell,

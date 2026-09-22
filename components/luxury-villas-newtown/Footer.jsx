@@ -20,7 +20,7 @@ const Footer = () => (
           About The Developer
         </h2>
         <p style={{ fontSize: '13px', color: '#ffffff', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-          A Landmark Residential Address — Action Area 3 New Town, Kolkata
+          A Landmark Villa Address — Action Area 3 New Town, Kolkata
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
           <span style={{ width: '36px', height: '2.5px', background: '#9B1B22', borderRadius: '2px' }} />

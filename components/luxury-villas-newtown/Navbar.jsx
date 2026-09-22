@@ -522,9 +522,9 @@ const Navbar = ({ setIsOpen }) => {
           .nav-logo,
           .header_style2.sticky .nav-logo,
           .header_style2.scrolled-up-expanded .nav-logo {
-            height: 54px !important;
-            min-height: 54px !important;
-            max-width: 310px !important;
+            height: 46px !important;
+            min-height: 46px !important;
+            max-width: 265px !important;
             width: auto !important;
             display: block !important;
             opacity: 1 !important;
@@ -538,9 +538,9 @@ const Navbar = ({ setIsOpen }) => {
             .nav-logo,
             .header_style2.sticky .nav-logo,
             .header_style2.scrolled-up-expanded .nav-logo {
-              height: 48px !important;
-              min-height: 48px !important;
-              max-width: 275px !important;
+              height: 40px !important;
+              min-height: 40px !important;
+              max-width: 230px !important;
             }
           }
 
@@ -548,9 +548,9 @@ const Navbar = ({ setIsOpen }) => {
             .nav-logo,
             .header_style2.sticky .nav-logo,
             .header_style2.scrolled-up-expanded .nav-logo {
-              height: 42px !important;
-              min-height: 42px !important;
-              max-width: 235px !important;
+              height: 36px !important;
+              min-height: 36px !important;
+              max-width: 200px !important;
             }
           }
           

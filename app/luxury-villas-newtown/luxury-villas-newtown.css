@@ -732,7 +732,7 @@
   right: 0;
   z-index: 999;
   display: flex;
-  box-shadow: 0 -4px 20px rgba(65, 32, 17, 0.18);
+  box-shadow: 0 -4px 20px rgba(201, 169, 110, 0.18);
 }
 
 @media (min-width: 1024px) {

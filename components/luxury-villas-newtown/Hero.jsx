@@ -662,7 +662,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Bullet Points with Backdrop Layer (Desktop only via CSS) */}
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
-            "Premium 3 & 4 BHK Residences",
+            "Premium 3 & 4 BHK Villas",
             "Price Starting @ 2.40 Cr*",
             "Possession: July 2029",
             "50+ Modern Luxury Amenities",
@@ -689,7 +689,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Price Line */}
         <p className="hero-price-line w-full text-center lg:text-left" style={{ marginBottom: '0px' }}>
           <span className="hero-price-title whitespace-nowrap">
-            3 & 4 BHK Residences Starting From
+            3 & 4 BHK Villas Starting From
           </span>
           <span className="hero-price-badge mt-2 lg:mt-0 lg:ml-3">
             <img 

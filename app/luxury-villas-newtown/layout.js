@@ -44,14 +44,14 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://www.vinayak21acresnewtown.com'),
-  title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Flats in New Town',
-  description: 'Explore 3 & 4 BHK luxury flats at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+  title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
+  description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
   alternates: {
     canonical: '/luxury-villas-newtown',
   },
   openGraph: {
-    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Flats in New Town',
-    description: 'Explore 3 & 4 BHK luxury flats at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
+    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     url: 'https://www.vinayak21acresnewtown.com/luxury-villas-newtown',
     siteName: 'Vinayak 21 Acres Villa',
     images: [
@@ -67,8 +67,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Flats in New Town',
-    description: 'Explore 3 & 4 BHK luxury flats at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
+    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     images: ['/luxury-villas-newtown/hero/banner1.webp'],
   },
   icons: {

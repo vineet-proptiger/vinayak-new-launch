@@ -126,7 +126,7 @@ const Pricing = ({ setIsOpen }) => {
               <div className="mb-5 px-3.5 py-1 rounded-full bg-[#f4f9ee] border border-[#d6e8c0] text-[12px] font-semibold text-[#2d4212] tracking-wide shadow-xs flex items-center justify-center gap-1.5 whitespace-nowrap">
                 <span className="text-[13px]">📐</span>
                 <span>
-                  Saleable Area: <strong className="text-gray-900 font-extrabold">{unit.size}</strong>
+                   Useable Area: <strong className="text-gray-900 font-extrabold">{unit.size}</strong>
                 </span>
               </div>
 

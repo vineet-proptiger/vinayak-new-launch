@@ -102,7 +102,7 @@ const MasterPlan = ({ setIsOpen }) => {
                       {plan.label}
                     </h4>
                     <p className="text-[13px] text-gray-500 mb-1" style={{ fontFamily: F_SANS }}>
-                      <span className="font-semibold text-gray-700 uppercase tracking-wider">Saleable Area</span>
+                      <span className="font-semibold text-gray-700 uppercase tracking-wider">Useable Area</span>
                     </p>
                     <div 
                       className="text-[19px] sm:text-[21px] font-extrabold text-[#412011] inline-block leading-tight tracking-tight"

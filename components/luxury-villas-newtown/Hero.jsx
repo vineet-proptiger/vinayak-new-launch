@@ -135,14 +135,14 @@ const Hero = ({ setIsOpen }) => {
           }
         }
 
-        @keyframes pillBling {
-          0%, 100% {
-            transform: scale(1);
-            box-shadow: 0 3px 10px rgba(155, 27, 34, 0.3);
+        @keyframes pillBlink {
+          0%, 75% { 
+            opacity: 1; 
+            box-shadow: 0 4px 16px rgba(155, 27, 34, 0.65), 0 0 10px rgba(155, 27, 34, 0.4);
           }
-          50% {
-            transform: scale(1.05);
-            box-shadow: 0 5px 18px rgba(155, 27, 34, 0.55), 0 0 12px rgba(155, 27, 34, 0.35);
+          76%, 100% { 
+            opacity: 0; 
+            box-shadow: none; 
           }
         }
 
@@ -464,11 +464,11 @@ const Hero = ({ setIsOpen }) => {
             box-shadow: 0 4px 14px rgba(155, 27, 34, 0.35) !important;
             margin-bottom: 12px;
             width: fit-content;
-            animation: pillBling 2.2s infinite ease-in-out;
+            animation: pillBlink 1.4s infinite !important;
           }
           .hero-mobile-pill span {
             display: inline-block;
-            animation: sparkleRotate 2.2s infinite ease-in-out;
+            animation: sparkleRotate 1.4s infinite ease-in-out;
             transform-origin: center;
           }
           /* Reset layer badges completely on mobile */

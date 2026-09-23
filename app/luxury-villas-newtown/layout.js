@@ -44,22 +44,22 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://www.vinayak21acresnewtown.com'),
-  title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
-  description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+  title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
+  description: 'Explore 3 & 4 BHK luxury Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
   alternates: {
     canonical: '/luxury-villas-newtown',
   },
   openGraph: {
-    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
-    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
+    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     url: 'https://www.vinayak21acresnewtown.com/luxury-villas-newtown',
-    siteName: 'Vinayak 21 Acres Villa',
+    siteName: 'Vinayak Premium Villas',
     images: [
       {
         url: '/luxury-villas-newtown/hero/banner1.webp',
         width: 1200,
         height: 630,
-        alt: 'Vinayak 21 Acres Villa at Action Area 3 New Town, Kolkata',
+        alt: 'Vinayak Premium Villas at Action Area 3 New Town, Kolkata',
       },
     ],
     locale: 'en_IN',
@@ -67,8 +67,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vinayak 21 Acres Villa | 3 & 4 BHK Luxury Villas in New Town',
-    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak 21 Acres Villa, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
+    description: 'Explore 3 & 4 BHK at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     images: ['/luxury-villas-newtown/hero/banner1.webp'],
   },
   icons: {
@@ -89,11 +89,11 @@ export default function RootLayout({ children }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "RealEstateAgent",
-            "name": "Vinayak 21 Acres Villa",
+            "name": "Vinayak Premium Villas",
             "url": "https://www.vinayak21acresnewtown.com",
             "logo": "https://www.vinayak21acresnewtown.com/luxury-villas-newtown/logo/Logo.webp",
             "image": "https://www.vinayak21acresnewtown.com/luxury-villas-newtown/hero/banner1.webp",
-            "description": "Vinayak 21 Acres Villa at Action Area 3 New Town, Kolkata offers premium 3 & 4 BHK villas.",
+            "description": "Vinayak Premium Villas at Action Area 3 New Town, Kolkata offers premium 3 & 4 BHK villas.",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Action Area 3, New Town",

@@ -45,13 +45,13 @@ const nephilm = localFont({
 export const metadata = {
   metadataBase: new URL('https://www.vinayak21acresnewtown.com'),
   title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
-  description: 'Explore 3 & 4 BHK luxury Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+  description: 'Explore 3 & 4 BHK Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
   alternates: {
     canonical: '/luxury-villas-newtown',
   },
   openGraph: {
     title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
-    description: 'Explore 3 & 4 BHK luxury Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    description: 'Explore 3 & 4 BHK Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     url: 'https://www.vinayak21acresnewtown.com/luxury-villas-newtown',
     siteName: 'Vinayak Premium Villas',
     images: [
@@ -68,7 +68,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Vinayak Premium Villas | 3 & 4 BHK Premium Villas in New Town',
-    description: 'Explore 3 & 4 BHK at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
+    description: 'Explore 3 & 4 BHK Villas at Vinayak Premium Villas, New Town with 50+ modern amenities, excellent connectivity and premium lifestyle features from 2.40 Cr*. Enquire now!',
     images: ['/luxury-villas-newtown/hero/banner1.webp'],
   },
   icons: {

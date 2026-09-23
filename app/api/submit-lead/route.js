@@ -56,11 +56,11 @@ export async function POST(request) {
     }
 
     /* ── User data ── */
-    const fullName = get('fullname')
+    const fullName = get('fullname') || get('name') || get('FullName')
     const projectName = get('projectName')
-    const nameParts = fullName.trim().split(/\s+/)
+    const nameParts = fullName.trim() ? fullName.trim().split(/\s+/) : []
     const firstName = nameParts[0] || ''
-    const lastName = nameParts[1] || firstName
+    const lastName = nameParts.slice(1).join(' ') || ''
 
     /* ── Tracking ── */
     const utmSource = get('utm_source') || 'Microsite'

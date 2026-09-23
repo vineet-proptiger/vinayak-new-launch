@@ -24,7 +24,7 @@ const units = [
   },
   {
     type: "4 BHK",
-    subtitle: "LUXURY VILLAS",
+    subtitle: "PREMIUM VILLAS",
     tagline: "Spacious & Elegant",
     size: "3366 Sq. Ft.",
     price: "Ask For Price*",
@@ -162,11 +162,7 @@ const Pricing = ({ setIsOpen }) => {
               {/* Minimalist Pill CTA Button */}
               <button
                 onClick={() => setIsOpen(true)}
-                className={`w-full py-3.5 px-6 rounded-full text-[12.5px] font-extrabold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer flex items-center justify-center gap-2 ${
-                  unit.isPopular
-                    ? "bg-gradient-to-r from-[#9B1B22] to-[#7D1218] text-white hover:brightness-110 shadow-[#9B1B22]/30"
-                    : "bg-white border-2 border-[#9B1B22] text-[#412011] hover:bg-[#9B1B22] hover:text-white"
-                }`}
+                className="w-full py-3.5 px-6 rounded-full text-[12.5px] font-extrabold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer flex items-center justify-center gap-2 bg-[#9B1B22] text-white border-2 border-[#9B1B22] hover:bg-white hover:text-[#9B1B22]"
                 style={{ fontFamily: F_JOST }}
               >
                 <span>{unit.btnText}</span>

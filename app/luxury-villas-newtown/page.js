@@ -112,7 +112,7 @@ export default function Home() {
       `}</style>
       <div className="sticky-bottom-bar">
         <a
-          href="https://wa.me/919337712053?text=Hi%20I%20am%20interested%20in%20Vinayak%2021%20Acres%20Villa"
+          href="https://wa.me/919337712053?text=Hi%20I%20am%20interested%20in%20Vinayak%20Villa%20Projects"
           target="_blank" rel="noopener noreferrer"
           className="flex-1 flex flex-col items-center justify-center gap-0.5 py-2 !px-0 text-white transition-all"
           style={{ background: '#25D366', fontFamily: 'var(--font-sans)' }}

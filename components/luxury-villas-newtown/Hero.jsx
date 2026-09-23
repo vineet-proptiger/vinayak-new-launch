@@ -135,6 +135,29 @@ const Hero = ({ setIsOpen }) => {
           }
         }
 
+        @keyframes pillBling {
+          0%, 100% {
+            transform: scale(1);
+            box-shadow: 0 3px 10px rgba(155, 27, 34, 0.3);
+          }
+          50% {
+            transform: scale(1.05);
+            box-shadow: 0 5px 18px rgba(155, 27, 34, 0.55), 0 0 12px rgba(155, 27, 34, 0.35);
+          }
+        }
+
+        @keyframes sparkleRotate {
+          0%, 100% {
+            transform: scale(1) rotate(0deg);
+          }
+          30% {
+            transform: scale(1.3) rotate(-15deg);
+          }
+          70% {
+            transform: scale(1.3) rotate(15deg);
+          }
+        }
+
         .hero-price-badge {
           display: inline-flex;
           align-items: center;
@@ -428,19 +451,25 @@ const Hero = ({ setIsOpen }) => {
           .hero-mobile-pill {
             display: inline-flex !important;
             align-items: center;
-            gap: 6px;
-            padding: 4px 12px;
+            gap: 7px;
+            padding: 5px 15px;
             border-radius: 9999px;
             font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 0.05em;
+            font-weight: 800;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
-            background: #FAF3E8;
-            color: #9B1B22;
-            border: 1px solid #E8DEC8;
-            box-shadow: 0 2px 6px rgba(65, 32, 17, 0.12);
-            margin-bottom: 10px;
+            background: linear-gradient(135deg, #9B1B22 0%, #7D1218 100%) !important;
+            color: #FFFFFF !important;
+            border: 1px solid rgba(255, 255, 255, 0.35) !important;
+            box-shadow: 0 4px 14px rgba(155, 27, 34, 0.35) !important;
+            margin-bottom: 12px;
             width: fit-content;
+            animation: pillBling 2.2s infinite ease-in-out;
+          }
+          .hero-mobile-pill span {
+            display: inline-block;
+            animation: sparkleRotate 2.2s infinite ease-in-out;
+            transform-origin: center;
           }
           /* Reset layer badges completely on mobile */
           .hero-title-badge,
@@ -642,13 +671,13 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Mobile Luxury Pre Launch Pill */}
         <div className="hero-mobile-pill">
-          <span>✨</span> Pre Launch
+          <span>✨</span> PRE LAUNCH
         </div>
 
         {/* Main Heading */}
         <h1 className="hero-title">
           <span className="hero-title-badge">
-            Vinayak 21 Acres Villa
+            Vinayak Premium Villas
           </span>
         </h1>
 
@@ -662,10 +691,10 @@ const Hero = ({ setIsOpen }) => {
         {/* Bullet Points with Backdrop Layer (Desktop only via CSS) */}
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
-            "Premium 3 & 4 BHK Villas",
-            "Price Starting @ 2.40 Cr*",
+            "Exclusive Gated Community",
+            "50+ Lifestyle Amenities",
+            "Space, Privacy & Comfort",
             "Possession: July 2029",
-            "50+ Modern Luxury Amenities",
           ].map((text, i) => (
           <div 
             key={i} 

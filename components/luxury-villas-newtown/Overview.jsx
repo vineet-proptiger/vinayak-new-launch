@@ -41,7 +41,7 @@ const Overview = ({ setIsOpen }) => {
       
       {/* Section Header - Spanning across top */}
       <div className="mb-6 sm:mb-8" data-aos="fade-up" data-aos-duration="1000">
-        <h2 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wider text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Vinayak 21 Acres Villa</h2>
+        <h2 className="text-[20px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wider text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '6px' }}>Vinayak Premium Villas</h2>
         {/* Decorative Line */}
         <div className="flex items-center justify-start mt-1 mb-3">
           <div className="w-16 h-[1px] bg-[#9B1B22]"></div>
@@ -76,7 +76,7 @@ const Overview = ({ setIsOpen }) => {
                 >
                   W
                 </span>
-                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>elcome to Vinayak 21 Acres Villa</span> — a premium villa development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 3 &amp; 4 BHK villas spread across 21 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata&apos;s most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.
+                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>elcome to Vinayak Premium Villas</span> — a premium villa development by Vinayak Group Kolkata, nestled in the heart of New Town, Kolkata. Launched in July 2024, this thoughtfully designed community offers spacious 3 &amp; 4 BHK villas spread across 21 acres of lush, well-planned land, with possession commencing July 2029. Strategically located in New Town — Kolkata&apos;s most sought-after modern township — the project enjoys seamless connectivity to Rajarhat, Salt Lake, and the international airport.
                 <span className="lg:inline hidden">
                   {" "}With thoughtfully crafted villas ranging from 3,035 to 3,366 sq ft of useable area and an attractive average price of ₹7908K/sq.ft, Vinayak 21 Acres Villa is a new availability offering exceptional value in New Town&apos;s premium villa landscape.
                 </span>

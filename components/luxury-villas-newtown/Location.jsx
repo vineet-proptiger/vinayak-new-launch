@@ -64,7 +64,7 @@ const Location = () => {
                     <span>SEAMLESS CONNECTIVITY</span>
                   </h3>
                   <span className="text-[11px] font-bold text-[#9B1B22] bg-[#FDFBF7] px-2.5 py-0.5 rounded-full border border-[#E8DEC8] whitespace-nowrap shrink-0 inline-flex items-center gap-1 shadow-2xs">
-                    📍 Vinayak 21 Acres Villa
+                    📍 Vinayak Premium Villas
                   </span>
                 </div>
 

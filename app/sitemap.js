@@ -18,5 +18,11 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+    {
+      url: 'https://www.vinayak21acresnewtown.com/luxury-villas-newtown/privacy-policy',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.3,
+    },
   ]
 }

@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { logoImages } from '../../lib/images'
-import AosInit from '../../components/AosInit'
+import { logoImages } from '../../../lib/luxury-villas-newtown/images'
+import AosInit from '../../../components/AosInit'
 
 const GOLD = 'var(--color-gold)'
 const GOLD_DARK = 'var(--color-gold-dark)'
@@ -26,11 +26,11 @@ export default function PrivacyPolicy() {
         <div className="h-0.5 w-full" style={{ background: `linear-gradient(90deg, var(--color-gold), var(--color-gold-light), var(--color-gold))` }}></div>
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
-          <Link href="/" className="flex items-center">
-            <img src={logoImages.tarc} alt="Vinayak 21 Acres" className="h-7 sm:h-10 w-auto object-contain" />
+          <Link href="/luxury-villas-newtown" className="flex items-center">
+            <img src={logoImages.main} alt="Vinayak Premium Villas" className="h-7 sm:h-10 w-auto object-contain" />
           </Link>
           <Link
-            href="/"
+            href="/luxury-villas-newtown"
             className="btn-gold shadow-lg !text-[11px] !px-3 !py-2 sm:!text-sm sm:!px-6 sm:!py-3"
           >
             <span className="hidden sm:inline">BACK TO HOME</span><span className="sm:hidden">HOME</span>
@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
       <section
         className="relative flex items-center justify-center text-center min-h-[140px] sm:min-h-[200px]"
         style={{
-          backgroundImage: 'url(/images/hero/banner.webp)',
+          backgroundImage: 'url(/luxury-villas-newtown/hero/banner1.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <div className="flex items-center justify-center gap-2 text-white/80 text-sm" style={{ fontFamily: 'var(--font-sans)' }}>
-            <Link href="/" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
+            <Link href="/luxury-villas-newtown" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
             <span>›</span>
             <span>Privacy Policy</span>
           </div>
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
             <p className="mb-6 sm:mb-8 text-sm sm:text-base" style={{ lineHeight: 1.8, color: '#444', fontFamily: 'var(--font-jost), Jost, sans-serif' }}>
               At{' '}
               <span style={{ color: 'var(--color-gold-dark)', fontWeight: '600' }}>
-                Vinayak 21 Acres — Vinayak Group Kolkata
+                Vinayak 21 Acres Villa— Vinayak Group Kolkata
               </span>{' '}
               (Authorized Marketing Partner), we respect your privacy and are committed to safeguarding your personal data. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website.
             </p>
@@ -300,8 +300,8 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 Vinayak 21 Acres. All rights reserved |{' '}
-          <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
+          &copy; 2026 Vinayak Premium Villas. All rights reserved |{' '}
+          <Link href="/luxury-villas-newtown" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>
     </main>

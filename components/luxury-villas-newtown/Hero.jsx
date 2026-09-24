@@ -694,7 +694,7 @@ const Hero = ({ setIsOpen }) => {
             "Exclusive Gated Community",
             "50+ Lifestyle Amenities",
             "Space, Privacy & Comfort",
-            "Possession: July 2029",
+            "Project RERA Registered",
           ].map((text, i) => (
           <div 
             key={i} 

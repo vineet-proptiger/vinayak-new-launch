@@ -197,7 +197,7 @@ const Hero = ({ setIsOpen }) => {
               {[
                 'Premium 2 & 3 BHK Residences',
                 'Price Starting @ ₹ 76 Lacs*',
-                'Possession: July 2029',
+                'Project RERA Registered',
                 // ' 76 Lacs',
               ].map((item, i, arr) => (
                 <div key={i}>

@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '24px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        Vinayak 21 Acres by Vinayak Group Kolkata is a premium luxury residential development offering 2 &amp; 3 BHK residences spread across 2 acres in New Town, Kolkata. Featuring 186 thoughtfully designed apartments with built-up areas from 971 to 1,550 sq ft and 50+ world-class amenities including multipurpose lawns, luxury clubhouse, gymnasium, poolside &amp; lot more — Vinayak 21 Acres is crafted for those seeking an exceptional standard of living. Possession commences July 2029.
+        Vinayak 21 Acres by Vinayak Group Kolkata is a premium luxury residential development offering 2 &amp; 3 BHK residences spread across 2 acres in New Town, Kolkata. Featuring 186 thoughtfully designed apartments with built-up areas from 971 to 1,550 sq ft and 50+ world-class amenities including multipurpose lawns, luxury clubhouse, gymnasium, poolside &amp; lot more — Vinayak 21 Acres is crafted for those seeking an exceptional standard of living.
       </p>
       
       {/* RERA Block */}

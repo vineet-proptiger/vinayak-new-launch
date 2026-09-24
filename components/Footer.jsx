@@ -24,9 +24,28 @@ const Footer = () => (
       </p>
       
       {/* RERA Block */}
-      <div style={{ display: 'inline-block', background: 'rgba(255,255,255,0.05)', padding: '10px 24px', borderRadius: '4px', border: '1px solid rgba(255,255,255,0.1)', marginBottom: '8px' }}>
-        <span style={{ fontFamily: F_SANS, fontSize: '14px', color: '#4fceb5', marginRight: '6px' }}> Vinayak 21 Acres RERA No : </span>
-        <strong style={{ fontFamily: F_JOST, fontSize: '15px', color: '', letterSpacing: '0.04em' }}>WBRERA/P/SOU/2026/004147 | WBRERA/P/SOU/2026/004275</strong>
+      <div 
+        className="inline-flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2 max-w-full my-2 text-center"
+        style={{ 
+          background: 'rgba(255,255,255,0.05)', 
+          padding: '10px 18px', 
+          borderRadius: '6px', 
+          border: '1px solid rgba(255,255,255,0.1)',
+          boxSizing: 'border-box'
+        }}
+      >
+        <span style={{ fontFamily: F_SANS, fontSize: '13.5px', color: '#4fceb5' }}>
+          Vinayak 21 Acres RERA No :
+        </span>
+        <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center">
+          <strong style={{ fontFamily: F_JOST, fontSize: '14px', color: '#fff', letterSpacing: '0.03em', wordBreak: 'break-all' }}>
+            WBRERA/P/SOU/2026/004147
+          </strong>
+          <span className="hidden sm:inline" style={{ color: '#666' }}>|</span>
+          <strong style={{ fontFamily: F_JOST, fontSize: '14px', color: '#fff', letterSpacing: '0.03em', wordBreak: 'break-all' }}>
+            WBRERA/P/SOU/2026/004275
+          </strong>
+        </div>
       </div>
     </div>
 

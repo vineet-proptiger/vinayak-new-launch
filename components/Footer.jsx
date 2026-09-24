@@ -57,8 +57,8 @@ const Footer = () => (
         {/* <span style={{ fontSize: '13px', color: '#aaa', fontFamily: F_SANS }}>
           RERA No: <strong style={{ color: 'var(--color-gold)', fontWeight: '600' }}>Coming Soon</strong>
         </span> */}
-        <span style={{ color: '#444' }}>|</span>
-        <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }}>
+        <span style={{ color: '#666' }}>|</span>
+        <Link href="/privacy-policy" style={{ fontSize: '13px', color: '#9b951b', fontFamily: F_SANS }}>
           Privacy Policy
         </Link>
       </div>
